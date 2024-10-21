@@ -1,0 +1,33 @@
+@model List<HRMS.Areas.HRMS.Models.Member> // Adjust the namespace as necessary
+
+<h2>Employee List</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Date of Joining</th>
+            <th>Status</th>
+            <th>Department</th> <!-- Add a header for Department -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var member in Model)
+        {
+            <tr>
+                <td>@member.ID</td>
+                <td>@member.FirstName</td>
+                <td>@member.LastName</td>
+                <td>@member.Email</td>
+                <td>@member.Phone</td>
+                <td>@member.DateOfJoining.ToString("yyyy-MM-dd")</td>
+                <td>@member.Status</td>
+                <td>@member.Department?.Name</td> <!-- Display the department name -->
+            </tr>
+        }
+    </tbody>
+</table>
