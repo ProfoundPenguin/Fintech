@@ -3,6 +3,7 @@ using System;
 using HRMS.Areas.HRMS.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace core.Migrations
 {
     [DbContext(typeof(HRMSContext))]
-    partial class HRMSContextModelSnapshot : ModelSnapshot
+    [Migration("20241022130216_AddAcessLevelAndPermission")]
+    partial class AddAcessLevelAndPermission
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -177,50 +180,6 @@ namespace core.Migrations
                     b.ToTable("Role");
                 });
 
-            modelBuilder.Entity("core.Areas.HRMS.Models.AccessLevel", b =>
-                {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("ID"));
-
-                    b.Property<int>("Level")
-                        .HasMaxLength(100)
-                        .HasColumnType("integer");
-
-                    b.HasKey("ID");
-
-                    b.ToTable("AccessLevel");
-                });
-
-            modelBuilder.Entity("core.Areas.HRMS.Models.Permission", b =>
-                {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("ID"));
-
-                    b.Property<int?>("AccessLevelID")
-                        .HasColumnType("integer");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("character varying(100)");
-
-                    b.HasKey("ID");
-
-                    b.HasIndex("AccessLevelID");
-
-                    b.ToTable("Permission");
-                });
-
             modelBuilder.Entity("HRMS.Areas.HRMS.Models.Attendance", b =>
                 {
                     b.HasOne("HRMS.Areas.HRMS.Models.Member", "Member")
@@ -266,13 +225,6 @@ namespace core.Migrations
                     b.Navigation("Member");
                 });
 
-            modelBuilder.Entity("core.Areas.HRMS.Models.Permission", b =>
-                {
-                    b.HasOne("core.Areas.HRMS.Models.AccessLevel", null)
-                        .WithMany("Permission")
-                        .HasForeignKey("AccessLevelID");
-                });
-
             modelBuilder.Entity("HRMS.Areas.HRMS.Models.Department", b =>
                 {
                     b.Navigation("Members");
@@ -286,11 +238,6 @@ namespace core.Migrations
             modelBuilder.Entity("HRMS.Areas.HRMS.Models.Role", b =>
                 {
                     b.Navigation("Members");
-                });
-
-            modelBuilder.Entity("core.Areas.HRMS.Models.AccessLevel", b =>
-                {
-                    b.Navigation("Permission");
                 });
 #pragma warning restore 612, 618
         }

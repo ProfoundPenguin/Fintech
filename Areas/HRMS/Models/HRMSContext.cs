@@ -1,3 +1,4 @@
+using core.Areas.HRMS.Models;
 using Microsoft.EntityFrameworkCore; // Adjust the namespace based on where your models are defined
 
 namespace HRMS.Areas.HRMS.Models
@@ -14,6 +15,8 @@ namespace HRMS.Areas.HRMS.Models
         public DbSet<Payroll> Payroll { get; set; }
         public DbSet<Role> Role { get; set; }
         public DbSet<Attendance> Attendance { get; set; }
+        public DbSet<Permission> Permission { get; set; }
+        public DbSet<AccessLevel> AccessLevel { get; set; }
 
         // Add other DbSet properties as needed
 

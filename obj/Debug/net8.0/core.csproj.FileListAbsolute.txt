@@ -108,3 +108,9 @@ D:\Projects\Fintech\Core\core\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspa
 D:\Projects\Fintech\Core\core\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Projects\Fintech\Core\core\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Projects\Fintech\Core\core\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Fintech\Core\core\obj\Debug\net8.0\core.sourcelink.json
+D:\Projects\Fintech\Core\core\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Projects\Fintech\Core\core\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Projects\Fintech\Core\core\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Projects\Fintech\Core\core\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Projects\Fintech\Core\core\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
