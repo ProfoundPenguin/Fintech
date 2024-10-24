@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Fintech\\Core\\core\\core.csproj": {}
+    "D:\\Projects\\Fintech\\Core\\core.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Fintech\\Core\\core\\core.csproj": {
+    "D:\\Projects\\Fintech\\Core\\core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Fintech\\Core\\core\\core.csproj",
+        "projectUniqueName": "D:\\Projects\\Fintech\\Core\\core.csproj",
         "projectName": "core",
-        "projectPath": "D:\\Projects\\Fintech\\Core\\core\\core.csproj",
+        "projectPath": "D:\\Projects\\Fintech\\Core\\core.csproj",
         "packagesPath": "C:\\Users\\linds\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Fintech\\Core\\core\\obj\\",
+        "outputPath": "D:\\Projects\\Fintech\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\linds\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,6 +59,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.6, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",

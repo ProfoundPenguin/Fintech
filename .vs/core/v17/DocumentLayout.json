@@ -1,42 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projects\\Fintech\\Core\\core\\",
+  "WorkspaceRootPath": "D:\\Projects\\Fintech\\Core\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|d:\\projects\\fintech\\core\\core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|d:\\projects\\fintech\\core\\areas\\auth\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|solutionrelative:areas\\auth\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|d:\\projects\\fintech\\core\\areas\\auth\\views\\auth\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|solutionrelative:areas\\auth\\views\\auth\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|d:\\projects\\fintech\\core\\areas\\auth\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|solutionrelative:areas\\auth\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|d:\\projects\\fintech\\core\\areas\\auth\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|solutionrelative:areas\\auth\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|d:\\projects\\fintech\\core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|d:\\projects\\fintech\\core\\core\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|d:\\projects\\fintech\\core\\areas\\auth\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|solutionrelative:areas\\auth\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Fintech\\Core\\Migrations\\AuthDb\\20241024152034_InitialIdentitySchema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\AuthDb\\20241024152034_InitialIdentitySchema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|d:\\projects\\fintech\\core\\areas\\auth\\models\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|solutionrelative:areas\\auth\\models\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Fintech\\Core\\Migrations\\AuthDb\\20241024151909_InitialIdentitySchema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\AuthDb\\20241024151909_InitialIdentitySchema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|d:\\projects\\fintech\\core\\areas\\auth\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|solutionrelative:areas\\auth\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|d:\\projects\\fintech\\core\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Fintech\\Core\\core\\Migrations\\Core\\20241022140244_ReLocatedAuthModels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\Core\\20241022140244_ReLocatedAuthModels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Fintech\\Core\\core\\Migrations\\Core\\20241022134501_AddedAuthenticationModels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\Core\\20241022134501_AddedAuthenticationModels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|d:\\projects\\fintech\\core\\core\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|d:\\projects\\fintech\\core\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|d:\\projects\\fintech\\core\\core\\areas\\hrms\\models\\hrmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|solutionrelative:areas\\hrms\\models\\hrmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|d:\\projects\\fintech\\core\\core\\areas\\hrms\\models\\accesslevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|d:\\projects\\fintech\\core\\areas\\hrms\\models\\accesslevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|solutionrelative:areas\\hrms\\models\\accesslevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|d:\\projects\\fintech\\core\\core\\areas\\hrms\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|d:\\projects\\fintech\\core\\areas\\hrms\\models\\payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|solutionrelative:areas\\hrms\\models\\payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|d:\\projects\\fintech\\core\\areas\\hrms\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|solutionrelative:areas\\hrms\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|d:\\projects\\fintech\\core\\core\\areas\\hrms\\models\\payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|solutionrelative:areas\\hrms\\models\\payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|d:\\projects\\fintech\\core\\areas\\hrms\\models\\hrmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F73F067-1E58-4064-93CC-3BB5D00497EA}|core.csproj|solutionrelative:areas\\hrms\\models\\hrmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,28 +74,145 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20241022140244_ReLocatedAuthModels.cs",
-              "DocumentMoniker": "D:\\Projects\\Fintech\\Core\\core\\Migrations\\Core\\20241022140244_ReLocatedAuthModels.cs",
-              "RelativeDocumentMoniker": "Migrations\\Core\\20241022140244_ReLocatedAuthModels.cs",
-              "ToolTip": "D:\\Projects\\Fintech\\Core\\core\\Migrations\\Core\\20241022140244_ReLocatedAuthModels.cs",
-              "RelativeToolTip": "Migrations\\Core\\20241022140244_ReLocatedAuthModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Register.cs",
+              "DocumentMoniker": "D:\\Projects\\Fintech\\Core\\Areas\\Auth\\Views\\auth\\Register.cs",
+              "RelativeDocumentMoniker": "Areas\\Auth\\Views\\auth\\Register.cs",
+              "ToolTip": "D:\\Projects\\Fintech\\Core\\Areas\\Auth\\Views\\auth\\Register.cs",
+              "RelativeToolTip": "Areas\\Auth\\Views\\auth\\Register.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T14:02:44.72Z",
+              "WhenOpened": "2024-10-24T16:10:32.854Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "login.cshtml",
+              "DocumentMoniker": "D:\\Projects\\Fintech\\Core\\Areas\\Auth\\Views\\auth\\login.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Auth\\Views\\auth\\login.cshtml",
+              "ToolTip": "D:\\Projects\\Fintech\\Core\\Areas\\Auth\\Views\\auth\\login.cshtml",
+              "RelativeToolTip": "Areas\\Auth\\Views\\auth\\login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-24T15:24:12.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\Projects\\Fintech\\Core\\Areas\\Auth\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Areas\\Auth\\Models\\RegisterViewModel.cs",
+              "ToolTip": "D:\\Projects\\Fintech\\Core\\Areas\\Auth\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "Areas\\Auth\\Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T15:23:46.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Projects\\Fintech\\Core\\Areas\\Auth\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Areas\\Auth\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Projects\\Fintech\\Core\\Areas\\Auth\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Areas\\Auth\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAuwFEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T15:23:26.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20241024152034_InitialIdentitySchema.cs",
+              "DocumentMoniker": "D:\\Projects\\Fintech\\Core\\Migrations\\AuthDb\\20241024152034_InitialIdentitySchema.cs",
+              "RelativeDocumentMoniker": "Migrations\\AuthDb\\20241024152034_InitialIdentitySchema.cs",
+              "ToolTip": "D:\\Projects\\Fintech\\Core\\Migrations\\AuthDb\\20241024152034_InitialIdentitySchema.cs",
+              "RelativeToolTip": "Migrations\\AuthDb\\20241024152034_InitialIdentitySchema.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T15:20:34.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20241024151909_InitialIdentitySchema.cs",
+              "DocumentMoniker": "D:\\Projects\\Fintech\\Core\\Migrations\\AuthDb\\20241024151909_InitialIdentitySchema.cs",
+              "RelativeDocumentMoniker": "Migrations\\AuthDb\\20241024151909_InitialIdentitySchema.cs",
+              "ToolTip": "D:\\Projects\\Fintech\\Core\\Migrations\\AuthDb\\20241024151909_InitialIdentitySchema.cs",
+              "RelativeToolTip": "Migrations\\AuthDb\\20241024151909_InitialIdentitySchema.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAgwFEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T15:19:09.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\Fintech\\Core\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Projects\\Fintech\\Core\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAuwD4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T08:26:48.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\Projects\\Fintech\\Core\\Areas\\Auth\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Areas\\Auth\\Models\\LoginViewModel.cs",
+              "ToolTip": "D:\\Projects\\Fintech\\Core\\Areas\\Auth\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "Areas\\Auth\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T15:25:17.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthDbContext.cs",
+              "DocumentMoniker": "D:\\Projects\\Fintech\\Core\\Areas\\Auth\\Models\\AuthDbContext.cs",
+              "RelativeDocumentMoniker": "Areas\\Auth\\Models\\AuthDbContext.cs",
+              "ToolTip": "D:\\Projects\\Fintech\\Core\\Areas\\Auth\\Models\\AuthDbContext.cs",
+              "RelativeToolTip": "Areas\\Auth\\Models\\AuthDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:58:39.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Projects\\Fintech\\Core\\Areas\\Auth\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Areas\\Auth\\Models\\User.cs",
+              "ToolTip": "D:\\Projects\\Fintech\\Core\\Areas\\Auth\\Models\\User.cs",
+              "RelativeToolTip": "Areas\\Auth\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:57:06.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Projects\\Fintech\\Core\\core\\appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\Fintech\\Core\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\Projects\\Fintech\\Core\\core\\appsettings.json",
+              "ToolTip": "D:\\Projects\\Fintech\\Core\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -76,94 +221,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20241022134501_AddedAuthenticationModels.cs",
-              "DocumentMoniker": "D:\\Projects\\Fintech\\Core\\core\\Migrations\\Core\\20241022134501_AddedAuthenticationModels.cs",
-              "RelativeDocumentMoniker": "Migrations\\Core\\20241022134501_AddedAuthenticationModels.cs",
-              "ToolTip": "D:\\Projects\\Fintech\\Core\\core\\Migrations\\Core\\20241022134501_AddedAuthenticationModels.cs",
-              "RelativeToolTip": "Migrations\\Core\\20241022134501_AddedAuthenticationModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T13:45:01.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "D:\\Projects\\Fintech\\Core\\core\\Models\\ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Projects\\Fintech\\Core\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "D:\\Projects\\Fintech\\Core\\core\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Projects\\Fintech\\Core\\Models\\ErrorViewModel.cs",
               "RelativeToolTip": "Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T13:40:47.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T13:40:47.4Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "AccessLevel.cs",
-              "DocumentMoniker": "D:\\Projects\\Fintech\\Core\\core\\Areas\\HRMS\\Models\\AccessLevel.cs",
+              "DocumentMoniker": "D:\\Projects\\Fintech\\Core\\Areas\\HRMS\\Models\\AccessLevel.cs",
               "RelativeDocumentMoniker": "Areas\\HRMS\\Models\\AccessLevel.cs",
-              "ToolTip": "D:\\Projects\\Fintech\\Core\\core\\Areas\\HRMS\\Models\\AccessLevel.cs",
+              "ToolTip": "D:\\Projects\\Fintech\\Core\\Areas\\HRMS\\Models\\AccessLevel.cs",
               "RelativeToolTip": "Areas\\HRMS\\Models\\AccessLevel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T12:57:43.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T12:57:43.767Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Payroll.cs",
-              "DocumentMoniker": "D:\\Projects\\Fintech\\Core\\core\\Areas\\HRMS\\Models\\Payroll.cs",
+              "DocumentMoniker": "D:\\Projects\\Fintech\\Core\\Areas\\HRMS\\Models\\Payroll.cs",
               "RelativeDocumentMoniker": "Areas\\HRMS\\Models\\Payroll.cs",
-              "ToolTip": "D:\\Projects\\Fintech\\Core\\core\\Areas\\HRMS\\Models\\Payroll.cs",
+              "ToolTip": "D:\\Projects\\Fintech\\Core\\Areas\\HRMS\\Models\\Payroll.cs",
               "RelativeToolTip": "Areas\\HRMS\\Models\\Payroll.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T12:56:43.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T12:56:43.619Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "Permission.cs",
-              "DocumentMoniker": "D:\\Projects\\Fintech\\Core\\core\\Areas\\HRMS\\Models\\Permission.cs",
+              "DocumentMoniker": "D:\\Projects\\Fintech\\Core\\Areas\\HRMS\\Models\\Permission.cs",
               "RelativeDocumentMoniker": "Areas\\HRMS\\Models\\Permission.cs",
-              "ToolTip": "D:\\Projects\\Fintech\\Core\\core\\Areas\\HRMS\\Models\\Permission.cs",
+              "ToolTip": "D:\\Projects\\Fintech\\Core\\Areas\\HRMS\\Models\\Permission.cs",
               "RelativeToolTip": "Areas\\HRMS\\Models\\Permission.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T12:56:16.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T12:56:16.2Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projects\\Fintech\\Core\\core\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Projects\\Fintech\\Core\\core\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADUAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T08:26:48.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "HRMSContext.cs",
-              "DocumentMoniker": "D:\\Projects\\Fintech\\Core\\core\\Areas\\HRMS\\Models\\HRMSContext.cs",
+              "DocumentMoniker": "D:\\Projects\\Fintech\\Core\\Areas\\HRMS\\Models\\HRMSContext.cs",
               "RelativeDocumentMoniker": "Areas\\HRMS\\Models\\HRMSContext.cs",
-              "ToolTip": "D:\\Projects\\Fintech\\Core\\core\\Areas\\HRMS\\Models\\HRMSContext.cs",
+              "ToolTip": "D:\\Projects\\Fintech\\Core\\Areas\\HRMS\\Models\\HRMSContext.cs",
               "RelativeToolTip": "Areas\\HRMS\\Models\\HRMSContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T13:03:33.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T13:03:33.451Z"
             }
           ]
         }

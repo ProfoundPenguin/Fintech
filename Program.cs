@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using HRMS.Areas.HRMS.Models;
-using core.Models.Auth;
+using core.Areas.Auth.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,22 +12,22 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<HRMSContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreSqlConnection")));
 
-builder.Services.AddDbContext<AuthContext>(options =>
+builder.Services.AddDbContext<AuthDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("AuthPostgreSqlConnection")));
 
+// Add Identity services
+builder.Services.AddIdentity<User, IdentityRole>()
+    .AddEntityFrameworkStores<AuthDbContext>()
+    .AddDefaultTokenProviders(); // Add this to enable token generation for features like password resets
 
-// Configure Identity without roles
-builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+builder.Services.ConfigureApplicationCookie(options =>
 {
-    // Password settings (you can customize these as needed)
-    options.Password.RequireDigit = true;
-    options.Password.RequiredLength = 8;
-    options.Password.RequireNonAlphanumeric = false;
-    options.Password.RequireUppercase = true;
-    options.Password.RequireLowercase = true;
-})
-.AddEntityFrameworkStores<HRMSContext>()
-.AddDefaultTokenProviders();
+    options.LoginPath = "/Auth/Auth/Login"; // Set the path for the login page
+    options.AccessDeniedPath = "/Auth/Auth/Login"; // Redirect if access is denied
+});
+
+// Add authorization
+builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
@@ -47,12 +47,19 @@ app.UseRouting();
 app.UseAuthentication();  // This must be added before UseAuthorization
 app.UseAuthorization();
 
+// Map default controller route
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
+// Map area routes
 app.MapControllerRoute(
     name: "areaRoute",
     pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+
+app.MapControllerRoute(
+    name: "authRoute",
+    pattern: "auth/{action=Index}/{id?}",
+    defaults: new { area = "Auth", controller = "Auth" });
 
 app.Run();
